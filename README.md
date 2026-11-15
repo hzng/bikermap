@@ -1,4 +1,4 @@
-# BikeScape
+# BikerMap
 
 A bike map for Cupertino that knows how each street feels to ride, not just how long it is.
 
@@ -73,7 +73,7 @@ The graph and scores are committed. Photos, raw model replies and keys are not. 
 
 ## History
 
-- The app sits on [MVP_demo](https://github.com/blar-tw/MVP_demo), a generic MIT starter (auth, database, API, Python side-car) written before BikeScape. Its documentation is in [DEPLOY.md](DEPLOY.md) and [REBUILD.md](REBUILD.md); everything under `py/app/bikemap/`, `py/scripts/`, `web/src/bikemap/` and `presentation/` is BikeScape.
+- The app sits on [MVP_demo](https://github.com/blar-tw/MVP_demo), a generic MIT starter (auth, database, API, Python side-car) written before BikerMap. Its documentation is in [DEPLOY.md](DEPLOY.md) and [REBUILD.md](REBUILD.md); everything under `py/app/bikemap/`, `py/scripts/`, `web/src/bikemap/` and `presentation/` is BikerMap.
 - Inspired by [Aggie Street Smart](referenceproject.md) (HackDavis 2026).
 
 ## License
