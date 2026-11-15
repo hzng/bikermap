@@ -1,0 +1,34 @@
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+
+# Environment — only the example is committed
+.env
+.env.*
+!.env.example
+
+# Local database (PGlite writes here when DATABASE_URL is unset)
+api/.data/
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+# Street View photos + raw LLM replies: never commit Google imagery to the public repo
+py/data/cache/
+py/data/ext/cache/
+# demo data bundle (contains Street View photos)
+Dahacks-demo-data/
+Dahacks-demo-data.zip
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Local Codex skills
+.agents/skills/
